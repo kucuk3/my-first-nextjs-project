@@ -1,0 +1,17 @@
+.link {
+    color: black;
+    margin: 0px 10px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: auto;
+
+
+}

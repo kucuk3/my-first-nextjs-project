@@ -1,0 +1,67 @@
+.titleText {
+  /* Title */
+
+  position: static;
+  /* Heading 3 */
+  font-family: Cormorant Garamond;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 46px;
+
+  /* identical to box height, or 128% */
+
+  /* 03. Dark */
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.titleTextDesc {
+  /* Description */
+
+  position: static;
+
+  /* Subtitle 2 */
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+
+  /* or 144% */
+
+  /* 04. Gray */
+  color: #949799;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+.divBtn {
+  /* Button */
+
+  position: static;
+  width: 155px;
+  height: 55px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  /* 01. Primary */
+  background: #000000;
+  /* identical to box height, or 150% */
+  text-align: center;
+
+  /* 06. White */
+  color: #ffffff;
+}

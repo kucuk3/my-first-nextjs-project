@@ -1,0 +1,117 @@
+.frame{
+    display: inline-flex;
+
+}
+.card{
+    float:left;
+
+    margin-right: 10px;
+    margin-left: 80px;
+
+}
+.categoryName{
+    font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+
+}
+
+.cardShortText {
+    width: 420.08px;
+    position: static;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #949799;
+}
+.contentShortText{
+    width: 420.08px;
+    font-family: "Roboto";
+    color: #333333;
+
+}
+
+
+.foto{
+    width:420px;
+    height:220px
+}
+.cardTitle {
+    width: 420.08px;
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+}
+.titleText{
+    position: static;
+    /* Heading 3 */
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 46px;
+    width: fit-content;
+    margin-top: 10px;
+    margin-bottom: 60px;
+
+}
+.cardTitleText{
+    color: black;
+    text-decoration:none;
+    transition: color 0.15s;
+}
+.cardTitleText:hover{
+    color: red;
+    text-decoration:none;
+
+}
+.titleTextDesc{
+    /* Description */
+    width: 420.08px;
+    position: static;
+
+
+    /* Subtitle 2 */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    /* 04. Gray */
+    color: #949799;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+
+.cardBtn{
+    /* Button */
+    position: static;
+    width: 155px;
+    height: 55px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 15px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    /* 01. Primary */
+    background: #000000;
+    /* identical to box height, or 150% */
+    text-align: center;
+    /* 06. White */
+    color: #FFFFFF;
+}
+
+.buttonText{
+    color: white;
+    text-decoration:none
+
+}
+

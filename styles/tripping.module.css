@@ -1,0 +1,122 @@
+.titleText{
+    /* Title */
+
+    position: static;
+    /* Heading 3 */
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 46px;
+    width: fit-content;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    padding: 0px 25px;
+
+
+    /* identical to box height, or 128% */
+
+    /* 03. Dark */
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+
+}
+
+.cardTitle {
+    width: 420.08px;
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 1px;
+    margin-inline-end: 1px;
+}
+.titleTextDesc{
+    /* Description */
+    width: 420.08px;
+    position: static;
+
+
+    /* Subtitle 2 */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+
+
+    /* or 144% */
+
+    /* 04. Gray */
+    color: #949799;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 8px 0px;
+
+}
+.divBtn{
+    /* Button */
+
+    position: static;
+    width: 155px;
+    height: 55px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 15px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    /* 01. Primary */
+    background: #000000;
+    /* identical to box height, or 150% */
+    text-align: center;
+
+    /* 06. White */
+    color: #FFFFFF;
+}
+.tableRow{
+    display: flex;
+justify-content: space-between;
+}
+
+.cerceve{
+    width: 1095px;
+}
+.categoryNameText{
+    margin-top: 50px;
+    position: center;
+}
+
+.SEOText{
+    width: 1095px;
+    font-family: "Roboto";
+    color: #333333;
+}
+
+.foto{
+    width: 800px;
+    height: 594px;
+    display: block;
+    vertical-align: middle;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+}
+

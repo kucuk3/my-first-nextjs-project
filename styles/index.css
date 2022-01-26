@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: row;
+    font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+main {
+    min-height: calc(100vh - 200px) ;
+
+}
+.menutitle {
+    margin-top: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+}
+.menutitle ul{
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+}
+.menutitle a{
+    padding: 0px 10px;
+
+}
